@@ -1,0 +1,24 @@
+SQL> spool spool_project_1 append
+SQL> @ create_table_statements.sql;
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+SQL> spool off

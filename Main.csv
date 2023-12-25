@@ -1,0 +1,45 @@
+BANK,,,,
+code,name,addr,,
+101,Bank Of America,"1206 S Bowen rd, Arlington, 76013",,
+102,ICICI,"Dallas Downtown, TX",,
+BANK_BRANCH,,,,
+bcode,branchno,addr,,
+102,76689,"1206 S Bowen rd, Arlington, 76013",,
+101,99827,"1020 E Pioneer Pkwy, Arlington, 76013",,
+101,54667,"1622 E Abraham St, Arlington, 76013",,
+101,61390,"24 N National Rd, Arlington,76014",,
+102,26761,"1 W balni Park, Arlington, 76012",,
+ACCOUNT,,,,
+acctno,balance,type,bcode,bno
+2097829308,789,savings,102,26761
+8927482901,67728,savings,101,99827
+4129820387,78200000,current,101,61390
+7623928327,271883,savings,101,61390
+2103236722,213876,current,102,76689
+6277135351,898212,current,102,26761
+8745728299,459000,savings,102,26761
+CUSTOMER,,,,
+ssn,name,phone ,addr,
+983322983,Akshay Sadalgekar,6827366472,"404 , Summit avenue, Arlington, 76013",
+537368736,Danish,6728192347,"302, Carnegie mason, Arlington, 76023",
+672809323,Jay,6882939447,"23, Park nation, Arlington,76012",
+872362478,Vidhit,6129847387,"21 N Abraham st, Arlington, 76013",
+982278374,aman,6893209475,"8 S Cooper St, Arlington, 76013",
+239987482,amol,6283912094,"32 E Nedderman st, Arlington, 76013",
+LOAN,,,,
+loanno,amount,type,bcode,bno
+998,321876,education,102,76689
+562,9222274,home,101,99827
+246,52263,home,101,54667
+300,2879837,home,101,61390
+221,98237,car,102,26761
+ACCOUNT_CUSTOMER,,,,
+ssn,acctno,,,
+983322983,4129820387,,,
+537368736,7623928327,,,
+672809323,2103236722,,,
+LOAN_CUSTOMER,,,,
+ssn,loanno,,,
+983322983,562,,,
+537368736,246,,,
+672809323,300,,,
